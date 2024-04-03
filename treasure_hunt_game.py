@@ -229,6 +229,8 @@ Number of moves: {move_number}
 """
 
 
+# def play():
+
 def main() -> None:
     """Function used to actually start the program"""
     game_is_active = True
@@ -284,7 +286,7 @@ Let's set the game options...""")
                     print(f"""Well done!!!
 You have won the game.
 You took: {number_of_moves}  moves"""
-                          )
+                    )
                     return
                 if number_of_chests == 0:
                     print(f"""Unlucky! :(
@@ -295,3 +297,5 @@ You took: {number_of_moves} moves""")
 
 
 main()
+
+dkqowkdoqwk
