@@ -9,6 +9,29 @@ them points whereas others will reduce their points
 import random
 
 
+class BoardEntity:
+    ...
+
+
+class Chest(BoardEntity):
+    ...
+
+
+class Pirate(BoardEntity):
+    ...
+
+
+class Player:
+    def __init__(self, player_name: str, game_dimensions: int) -> None:
+        self.name = player_name
+        self.gold = 0
+        self.moves = 0
+        self.score = 0
+        self.position = [0, (game_dimensions[1] - 1)]
+
+    def make_a_move():
+
+
 def get_grid_size() -> list[int] | None:
     """Function that allows the player to choose what size grid they want to play they game on"""
     choosing_grid_size = True
@@ -297,5 +320,3 @@ You took: {number_of_moves} moves""")
 
 
 main()
-
-dkqowkdoqwk
